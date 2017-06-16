@@ -1,0 +1,1013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{83D3C1E7-E1CB-4F34-9D42-0F5280139CAF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ChineseWord</RootNamespace>
+    <AssemblyName>ChineseWord</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>home32X32.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.104.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.104.0\lib\net451\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.104.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.104.0\lib\net451\System.Data.SQLite.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.104.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.104.0\lib\net451\System.Data.SQLite.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasePage\DianTwoPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePage\DianTwoPage.Designer.cs">
+      <DependentUpon>DianTwoPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage\GouFourPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePage\GouFourPage.Designer.cs">
+      <DependentUpon>GouFourPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage\GouPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePage\GouPage.Designer.cs">
+      <DependentUpon>GouPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage\GouThreePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePage\GouThreePage.Designer.cs">
+      <DependentUpon>GouThreePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage\GouTwoPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePage\GouTwoPage.Designer.cs">
+      <DependentUpon>GouTwoPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage\PieTwoPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePage\PieTwoPage.Designer.cs">
+      <DependentUpon>PieTwoPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage\ZhePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePage\ZhePage.Designer.cs">
+      <DependentUpon>ZhePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasePage\ZheTwoPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasePage\ZheTwoPage.Designer.cs">
+      <DependentUpon>ZheTwoPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BasicStrokes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BasicStrokes.Designer.cs">
+      <DependentUpon>BasicStrokes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dianPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dianPage.Designer.cs">
+      <DependentUpon>dianPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiEightPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiEightPage.Designer.cs">
+      <DependentUpon>DuTiZiEightPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiFivePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiFivePage.Designer.cs">
+      <DependentUpon>DuTiZiFivePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiPage.Designer.cs">
+      <DependentUpon>DuTiZiPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZipFourPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZipFourPage.Designer.cs">
+      <DependentUpon>DuTiZipFourPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiSevenPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiSevenPage.Designer.cs">
+      <DependentUpon>DuTiZiSevenPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiSixPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiSixPage.Designer.cs">
+      <DependentUpon>DuTiZiSixPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiThreePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiThreePage.Designer.cs">
+      <DependentUpon>DuTiZiThreePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiTwoPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DutiziPage\DuTiZiTwoPage.Designer.cs">
+      <DependentUpon>DuTiZiTwoPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HengPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HengPage.Designer.cs">
+      <DependentUpon>HengPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaPage.Designer.cs">
+      <DependentUpon>LaPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="localSql\ReadUSB.cs" />
+    <Compile Include="PianPangBushou.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBushou.Designer.cs">
+      <DependentUpon>PianPangBushou.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\BaoWei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\BaoWei.Designer.cs">
+      <DependentUpon>BaoWei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\BaoWeiTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\BaoWeiTwo.Designer.cs">
+      <DependentUpon>BaoWeiTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\YouZiPang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\YouZiPang.Designer.cs">
+      <DependentUpon>YouZiPang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\YouZiPangTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\YouZiPangTwo.Designer.cs">
+      <DependentUpon>YouZiPangTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiDi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiDi.Designer.cs">
+      <DependentUpon>ZiDi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiDiThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiDiThree.Designer.cs">
+      <DependentUpon>ZiDiThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiDiTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiDiTwo.Designer.cs">
+      <DependentUpon>ZiDiTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiTou.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiTou.Designer.cs">
+      <DependentUpon>ZiTou.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiTouThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiTouThree.Designer.cs">
+      <DependentUpon>ZiTouThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiTouTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZiTouTwo.Designer.cs">
+      <DependentUpon>ZiTouTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZuoZiPang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZuoZiPang.Designer.cs">
+      <DependentUpon>ZuoZiPang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZuoZiPangThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZuoZiPangThree.Designer.cs">
+      <DependentUpon>ZuoZiPangThree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZuoZiPangTwo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PianPangBuShou\ZuoZiPangTwo.Designer.cs">
+      <DependentUpon>ZuoZiPangTwo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PiePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PiePage.Designer.cs">
+      <DependentUpon>PiePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlayMovie\Play.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlayMovie\Play.Designer.cs">
+      <DependentUpon>Play.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShuPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShuPage.Designer.cs">
+      <DependentUpon>ShuPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sqlhelp.cs" />
+    <Compile Include="TiPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TiPage.Designer.cs">
+      <DependentUpon>TiPage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BasePage\DianTwoPage.resx">
+      <DependentUpon>DianTwoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePage\GouFourPage.resx">
+      <DependentUpon>GouFourPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePage\GouPage.resx">
+      <DependentUpon>GouPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePage\GouThreePage.resx">
+      <DependentUpon>GouThreePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePage\GouTwoPage.resx">
+      <DependentUpon>GouTwoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePage\PieTwoPage.resx">
+      <DependentUpon>PieTwoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePage\ZhePage.resx">
+      <DependentUpon>ZhePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasePage\ZheTwoPage.resx">
+      <DependentUpon>ZheTwoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BasicStrokes.resx">
+      <DependentUpon>BasicStrokes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dianPage.resx">
+      <DependentUpon>dianPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DutiziPage\DuTiZiEightPage.resx">
+      <DependentUpon>DuTiZiEightPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DutiziPage\DuTiZiFivePage.resx">
+      <DependentUpon>DuTiZiFivePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DutiziPage\DuTiZiPage.resx">
+      <DependentUpon>DuTiZiPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DutiziPage\DuTiZipFourPage.resx">
+      <DependentUpon>DuTiZipFourPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DutiziPage\DuTiZiSevenPage.resx">
+      <DependentUpon>DuTiZiSevenPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DutiziPage\DuTiZiSixPage.resx">
+      <DependentUpon>DuTiZiSixPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DutiziPage\DuTiZiThreePage.resx">
+      <DependentUpon>DuTiZiThreePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DutiziPage\DuTiZiTwoPage.resx">
+      <DependentUpon>DuTiZiTwoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HengPage.resx">
+      <DependentUpon>HengPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaPage.resx">
+      <DependentUpon>LaPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBushou.resx">
+      <DependentUpon>PianPangBushou.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\BaoWei.resx">
+      <DependentUpon>BaoWei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\BaoWeiTwo.resx">
+      <DependentUpon>BaoWeiTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\YouZiPang.resx">
+      <DependentUpon>YouZiPang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\YouZiPangTwo.resx">
+      <DependentUpon>YouZiPangTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZiDi.resx">
+      <DependentUpon>ZiDi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZiDiThree.resx">
+      <DependentUpon>ZiDiThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZiDiTwo.resx">
+      <DependentUpon>ZiDiTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZiTou.resx">
+      <DependentUpon>ZiTou.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZiTouThree.resx">
+      <DependentUpon>ZiTouThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZiTouTwo.resx">
+      <DependentUpon>ZiTouTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZuoZiPang.resx">
+      <DependentUpon>ZuoZiPang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZuoZiPangThree.resx">
+      <DependentUpon>ZuoZiPangThree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PianPangBuShou\ZuoZiPangTwo.resx">
+      <DependentUpon>ZuoZiPangTwo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PiePage.resx">
+      <DependentUpon>PiePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlayMovie\Play.resx">
+      <DependentUpon>Play.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShuPage.resx">
+      <DependentUpon>ShuPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TiPage.resx">
+      <DependentUpon>TiPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="localSql\LocalSql.db" />
+    <None Include="localSql\帮助文档.doc" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="home32X32.ico" />
+    <Content Include="images\1.png" />
+    <None Include="Resources\TBack.png" />
+    <None Include="images\back.png" />
+    <None Include="images\button.png" />
+    <Content Include="images\changheng.png" />
+    <None Include="images\content-恢复的.jpg" />
+    <Content Include="images\content.jpg" />
+    <Content Include="images\contentBushou.jpg" />
+    <None Include="images\contentDutizi.jpg" />
+    <None Include="images\contentYou.jpg" />
+    <None Include="images\contentDi.jpg" />
+    <None Include="images\contentTou.jpg" />
+    <None Include="images\contentZou.jpg" />
+    <Content Include="images\duanxieheng.png" />
+    <Content Include="images\fangda.png" />
+    <Content Include="images\HengPage.jpg" />
+    <Content Include="images\2.png" />
+    <Content Include="images\3.png" />
+    <Content Include="images\4.png" />
+    <Content Include="images\5.png" />
+    <Content Include="images\6.png" />
+    <Content Include="images\7.png" />
+    <Content Include="images\8.png" />
+    <Content Include="images\bg01.jpg" />
+    <Content Include="images\bg02.jpg" />
+    <Content Include="images\guanyu.png" />
+    <Content Include="images\home32X32.ico" />
+    <Content Include="images\index.jpg" />
+    <Content Include="images\ol1.png" />
+    <Content Include="images\ol2.png" />
+    <Content Include="images\ol4.png" />
+    <Content Include="images\ol5.png" />
+    <Content Include="images\PlayMovie.png" />
+    <Content Include="images\Query.png" />
+    <Content Include="images\Search2.jpg" />
+    <None Include="images\shuxieshifan.jpg" />
+    <Content Include="images\T1.png" />
+    <Content Include="images\T2.png" />
+    <Content Include="images\T3.png" />
+    <Content Include="images\T4.png" />
+    <Content Include="images\T5.png" />
+    <Content Include="images\T6.png" />
+    <Content Include="images\T7.png" />
+    <Content Include="images\T8.png" />
+    <Content Include="images\T9.png" />
+    <Content Include="images\TBack.png" />
+    <Content Include="images\tuichu.png" />
+    <Content Include="images\xieheng.png" />
+    <Content Include="images\yazi.jpg" />
+    <Content Include="images\偏旁部首.jpg" />
+    <Content Include="images\偏旁部首\包围\包围尿.jpg" />
+    <Content Include="images\偏旁部首\包围\包围床.jpg" />
+    <Content Include="images\偏旁部首\包围\包围戒.jpg" />
+    <Content Include="images\偏旁部首\包围\包围起.jpg" />
+    <Content Include="images\偏旁部首\包围\包围问.jpg" />
+    <Content Include="images\偏旁部首\包围\包围魅.jpg" />
+    <Content Include="images\偏旁部首\包围\包字框句.jpg" />
+    <Content Include="images\偏旁部首\包围\区字框区.jpg" />
+    <Content Include="images\偏旁部首\包围\同字框同.jpg" />
+    <Content Include="images\偏旁部首\包围\国字框.jpg" />
+    <Content Include="images\偏旁部首\包围\山子框凶.jpg" />
+    <Content Include="images\偏旁部首\包围\病字头病.jpg" />
+    <Content Include="images\偏旁部首\包围\老子头老.jpg" />
+    <Content Include="images\偏旁部首\包围\虎子头虎.jpg" />
+    <Content Include="images\偏旁部首\包围\过字底过.jpg" />
+    <Content Include="images\偏旁部首\包围\风字框风.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\单耳旁印.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\反文旁.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\右耳旁.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\寸字旁.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\斤字旁.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\欠字旁.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\立刀旁刘.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\连三撇.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\隹字旁.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\页字旁.jpg" />
+    <Content Include="images\偏旁部首\右偏旁\鸟字旁.jpg" />
+    <Content Include="images\偏旁部首\字头\京字头京.jpg" />
+    <Content Include="images\偏旁部首\字头\人字头合.jpg" />
+    <Content Include="images\偏旁部首\字头\倒八头兰.jpg" />
+    <Content Include="images\偏旁部首\字头\冒字头冒.jpg" />
+    <Content Include="images\偏旁部首\字头\出字头蚩.jpg" />
+    <Content Include="images\偏旁部首\字头\刀字头色.jpg" />
+    <Content Include="images\偏旁部首\字头\反文头冬.jpg" />
+    <Content Include="images\偏旁部首\字头\四字头罗.jpg" />
+    <Content Include="images\偏旁部首\字头\宝盖头宝.jpg" />
+    <Content Include="images\偏旁部首\字头\小子头当.jpg" />
+    <Content Include="images\偏旁部首\字头\山字头岁.jpg" />
+    <Content Include="images\偏旁部首\字头\日字头星.jpg" />
+    <Content Include="images\偏旁部首\字头\春字头春.jpg" />
+    <Content Include="images\偏旁部首\字头\爪字头采.jpg" />
+    <Content Include="images\偏旁部首\字头\病字头病.jpg" />
+    <Content Include="images\偏旁部首\字头\登子头登.jpg" />
+    <Content Include="images\偏旁部首\字头\祭字头祭.jpg" />
+    <Content Include="images\偏旁部首\字头\禾字头香.jpg" />
+    <Content Include="images\偏旁部首\字头\秃宝盖军.jpg" />
+    <Content Include="images\偏旁部首\字头\穴宝盖空.jpg" />
+    <Content Include="images\偏旁部首\字头\竹字头笑.jpg" />
+    <Content Include="images\偏旁部首\字头\草字头花.jpg" />
+    <Content Include="images\偏旁部首\字头\雨字头雪.jpg" />
+    <Content Include="images\偏旁部首\字底\儿字底先.jpg" />
+    <Content Include="images\偏旁部首\字底\卷字底卷.jpg" />
+    <Content Include="images\偏旁部首\字底\口字底告.jpg" />
+    <Content Include="images\偏旁部首\字底\四点底杰.jpg" />
+    <Content Include="images\偏旁部首\字底\土字底坚.jpg" />
+    <Content Include="images\偏旁部首\字底\夕字底梦.jpg" />
+    <Content Include="images\偏旁部首\字底\女字底要.jpg" />
+    <Content Include="images\偏旁部首\字底\子字底学.jpg" />
+    <Content Include="images\偏旁部首\字底\带.jpg" />
+    <Content Include="images\偏旁部首\字底\建字底建.jpg" />
+    <Content Include="images\偏旁部首\字底\手字底拿.jpg" />
+    <Content Include="images\偏旁部首\字底\日字底智.jpg" />
+    <Content Include="images\偏旁部首\字底\月字底青.jpg" />
+    <Content Include="images\偏旁部首\字底\木字底桌.jpg" />
+    <Content Include="images\偏旁部首\字底\水字底泰.jpg" />
+    <Content Include="images\偏旁部首\字底\益.jpg" />
+    <Content Include="images\偏旁部首\字底\石字底碧.jpg" />
+    <Content Include="images\偏旁部首\字底\示字底杂.jpg" />
+    <Content Include="images\偏旁部首\字底\竖心底恭.jpg" />
+    <Content Include="images\偏旁部首\字底\系字底紧.jpg" />
+    <Content Include="images\偏旁部首\字底\衣字底装.jpg" />
+    <Content Include="images\偏旁部首\字底\贝字底贺.jpg" />
+    <Content Include="images\偏旁部首\字底\过字底过.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\三点水江.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\两点水冷.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\单人旁你.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\双人旁行.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\反子头反.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\反犬旁狗.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\将字旁将.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\提手旁打.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\朝字旁朝.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\示字旁社.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\竖心旁情.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\绞丝旁组.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\虫字旁.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\衣字旁补.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\言字旁认.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\车子旁.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\金字旁针.jpg" />
+    <Content Include="images\偏旁部首\左偏旁\食字旁饭.jpg" />
+    <Content Include="images\偏旁部首背景.jpg" />
+    <Content Include="images\全屏.png" />
+    <Content Include="images\基本笔画\折\撇折1车.jpg" />
+    <Content Include="images\基本笔画\折\撇折2母.jpg" />
+    <Content Include="images\基本笔画\折\横折1口.jpg" />
+    <Content Include="images\基本笔画\折\横折2丑.jpg" />
+    <Content Include="images\基本笔画\折\横折3且.jpg" />
+    <Content Include="images\基本笔画\折\横折弯撇远.jpg" />
+    <Content Include="images\基本笔画\折\横折弯没.jpg" />
+    <Content Include="images\基本笔画\折\横折折凹.jpg" />
+    <Content Include="images\基本笔画\折\横折折撇.jpg" />
+    <Content Include="images\基本笔画\折\横折提认.jpg" />
+    <Content Include="images\基本笔画\折\竖折1山.jpg" />
+    <Content Include="images\基本笔画\折\竖折2出.jpg" />
+    <Content Include="images\基本笔画\折\竖折3亡.jpg" />
+    <Content Include="images\基本笔画\折\竖折4区.jpg" />
+    <Content Include="images\基本笔画\折\竖折折鼎.jpg" />
+    <Content Include="images\基本笔画\捺\平捺之.jpg" />
+    <Content Include="images\基本笔画\捺\斜捺八.jpg" />
+    <Content Include="images\基本笔画\提\平提虫.jpg" />
+    <Content Include="images\基本笔画\提\撇提1乡.jpg" />
+    <Content Include="images\基本笔画\提\撇提2云.jpg" />
+    <Content Include="images\基本笔画\提\斜提习.jpg" />
+    <Content Include="images\基本笔画\提\横折提认.jpg" />
+    <Content Include="images\基本笔画\提\竖提1以.jpg" />
+    <Content Include="images\基本笔画\提\竖提2瓜.jpg" />
+    <Content Include="images\基本笔画\提\竖提3长.jpg" />
+    <Content Include="images\基本笔画\撇\平撇千.jpg" />
+    <Content Include="images\基本笔画\撇\横撇1了.jpg" />
+    <Content Include="images\基本笔画\撇\横撇2乏.jpg" />
+    <Content Include="images\基本笔画\撇\横撇3又.jpg" />
+    <Content Include="images\基本笔画\撇\短斜撇生.jpg" />
+    <Content Include="images\基本笔画\撇\竖撇1月.jpg" />
+    <Content Include="images\基本笔画\撇\竖撇2大.jpg" />
+    <Content Include="images\基本笔画\撇\竖着撇专.jpg" />
+    <Content Include="images\基本笔画\撇\长斜撇1人.jpg" />
+    <Content Include="images\基本笔画\撇\长斜撇2文.jpg" />
+    <Content Include="images\基本笔画\点\上下点尽.jpg" />
+    <Content Include="images\基本笔画\点\两对点泰.jpg" />
+    <Content Include="images\基本笔画\点\右点斗.jpg" />
+    <Content Include="images\基本笔画\点\合三点兴.jpg" />
+    <Content Include="images\基本笔画\点\左右点小.jpg" />
+    <Content Include="images\基本笔画\点\左点刃.jpg" />
+    <Content Include="images\基本笔画\点\撇点1女.jpg" />
+    <Content Include="images\基本笔画\点\撇点2好.jpg" />
+    <Content Include="images\基本笔画\点\撇点3要.jpg" />
+    <Content Include="images\基本笔画\点\相向点丫.jpg" />
+    <Content Include="images\基本笔画\点\相背点六.jpg" />
+    <Content Include="images\基本笔画\点\竖三点江.jpg" />
+    <Content Include="images\基本笔画\点\竖两点冰.jpg" />
+    <Content Include="images\基本笔画\点\连四点羔.jpg" />
+    <Content Include="images\基本笔画\点\长点不.jpg" />
+    <Content Include="images\基本笔画\竖\右斜竖甘.jpg" />
+    <Content Include="images\基本笔画\竖\垂露竖川.jpg" />
+    <Content Include="images\基本笔画\竖\左斜竖共.jpg" />
+    <Content Include="images\基本笔画\竖\悬针竖中.jpg" />
+    <Content Include="images\基本笔画\竖\短斜竖.jpg" />
+    <Content Include="images\基本笔画\竖\短直竖尘.jpg" />
+    <Content Include="images\基本笔画\钩\卧钩心.jpg" />
+    <Content Include="images\基本笔画\钩\右耳钩邓.jpg" />
+    <Content Include="images\基本笔画\钩\左耳钩队.jpg" />
+    <Content Include="images\基本笔画\钩\弯钩子.jpg" />
+    <Content Include="images\基本笔画\钩\斜钩戈.jpg" />
+    <Content Include="images\基本笔画\钩\横折弯钩1九.jpg" />
+    <Content Include="images\基本笔画\钩\横折弯钩2几.jpg" />
+    <Content Include="images\基本笔画\钩\横折折折钩2物.jpg" />
+    <Content Include="images\基本笔画\钩\横折折折钩3凸.jpg" />
+    <Content Include="images\基本笔画\钩\横折折钩1乃.jpg" />
+    <Content Include="images\基本笔画\钩\横折钩1也.jpg" />
+    <Content Include="images\基本笔画\钩\横折钩2书.jpg" />
+    <Content Include="images\基本笔画\钩\横折钩3力.jpg" />
+    <Content Include="images\基本笔画\钩\横折钩4万.jpg" />
+    <Content Include="images\基本笔画\钩\横折钩5习.jpg" />
+    <Content Include="images\基本笔画\钩\横折钩6司.jpg" />
+    <Content Include="images\基本笔画\钩\横折钩7永.jpg" />
+    <Content Include="images\基本笔画\钩\横斜钩飞.jpg" />
+    <Content Include="images\基本笔画\钩\横钩1欠.jpg" />
+    <Content Include="images\基本笔画\钩\横钩2买.jpg" />
+    <Content Include="images\基本笔画\钩\竖弯1四.jpg" />
+    <Content Include="images\基本笔画\钩\竖弯2酒.jpg" />
+    <Content Include="images\基本笔画\钩\竖弯钩1巴.jpg" />
+    <Content Include="images\基本笔画\钩\竖弯钩2儿.jpg" />
+    <Content Include="images\基本笔画\钩\竖折折钩2与.jpg" />
+    <Content Include="images\基本笔画\钩\竖折折钩3弓.jpg" />
+    <Content Include="images\基本笔画\钩\竖折钩1张.jpg" />
+    <Content Include="images\基本笔画\钩\竖钩1于.jpg" />
+    <Content Include="images\基本笔画\钩\竖钩2寸.jpg" />
+    <Content Include="images\基本笔画背景.jpg" />
+    <Content Include="images\按钮背景.jpg" />
+    <Content Include="images\独体字.jpg" />
+    <Content Include="images\独体字\一.jpg" />
+    <Content Include="images\独体字\丁.jpg" />
+    <Content Include="images\独体字\七.jpg" />
+    <Content Include="images\独体字\万.jpg" />
+    <Content Include="images\独体字\丈.jpg" />
+    <Content Include="images\独体字\上.jpg" />
+    <Content Include="images\独体字\下.jpg" />
+    <Content Include="images\独体字\不.jpg" />
+    <Content Include="images\独体字\与.jpg" />
+    <Content Include="images\独体字\丑.jpg" />
+    <Content Include="images\独体字\且.jpg" />
+    <Content Include="images\独体字\丘.jpg" />
+    <Content Include="images\独体字\业.jpg" />
+    <Content Include="images\独体字\东.jpg" />
+    <Content Include="images\独体字\个.jpg" />
+    <Content Include="images\独体字\中.jpg" />
+    <Content Include="images\独体字\丰.jpg" />
+    <Content Include="images\独体字\串.jpg" />
+    <Content Include="images\独体字\丸.jpg" />
+    <Content Include="images\独体字\丹.jpg" />
+    <Content Include="images\独体字\主.jpg" />
+    <Content Include="images\独体字\乃.jpg" />
+    <Content Include="images\独体字\久.jpg" />
+    <Content Include="images\独体字\么.jpg" />
+    <Content Include="images\独体字\义.jpg" />
+    <Content Include="images\独体字\之.jpg" />
+    <Content Include="images\独体字\乌.jpg" />
+    <Content Include="images\独体字\乎.jpg" />
+    <Content Include="images\独体字\乐.jpg" />
+    <Content Include="images\独体字\九.jpg" />
+    <Content Include="images\独体字\也.jpg" />
+    <Content Include="images\独体字\习.jpg" />
+    <Content Include="images\独体字\乡.jpg" />
+    <Content Include="images\独体字\书.jpg" />
+    <Content Include="images\独体字\了.jpg" />
+    <Content Include="images\独体字\予.jpg" />
+    <Content Include="images\独体字\事.jpg" />
+    <Content Include="images\独体字\二.jpg" />
+    <Content Include="images\独体字\于.jpg" />
+    <Content Include="images\独体字\互.jpg" />
+    <Content Include="images\独体字\井.jpg" />
+    <Content Include="images\独体字\亚.jpg" />
+    <Content Include="images\独体字\亡.jpg" />
+    <Content Include="images\独体字\产.jpg" />
+    <Content Include="images\独体字\人.jpg" />
+    <Content Include="images\独体字\儿.jpg" />
+    <Content Include="images\独体字\入.jpg" />
+    <Content Include="images\独体字\八.jpg" />
+    <Content Include="images\独体字\其.jpg" />
+    <Content Include="images\独体字\册.jpg" />
+    <Content Include="images\独体字\再.jpg" />
+    <Content Include="images\独体字\农.jpg" />
+    <Content Include="images\独体字\几.jpg" />
+    <Content Include="images\独体字\出.jpg" />
+    <Content Include="images\独体字\刀.jpg" />
+    <Content Include="images\独体字\办.jpg" />
+    <Content Include="images\独体字\匆.jpg" />
+    <Content Include="images\独体字\十.jpg" />
+    <Content Include="images\独体字\千.jpg" />
+    <Content Include="images\独体字\升.jpg" />
+    <Content Include="images\独体字\半.jpg" />
+    <Content Include="images\独体字\卫.jpg" />
+    <Content Include="images\独体字\又.jpg" />
+    <Content Include="images\独体字\叉.jpg" />
+    <Content Include="images\独体字\及.jpg" />
+    <Content Include="images\独体字\口.jpg" />
+    <Content Include="images\独体字\史.jpg" />
+    <Content Include="images\独体字\土.jpg" />
+    <Content Include="images\独体字\垂.jpg" />
+    <Content Include="images\独体字\士.jpg" />
+    <Content Include="images\独体字\夕.jpg" />
+    <Content Include="images\独体字\大.jpg" />
+    <Content Include="images\独体字\天.jpg" />
+    <Content Include="images\独体字\太.jpg" />
+    <Content Include="images\独体字\夫.jpg" />
+    <Content Include="images\独体字\央.jpg" />
+    <Content Include="images\独体字\失.jpg" />
+    <Content Include="images\独体字\头.jpg" />
+    <Content Include="images\独体字\夹.jpg" />
+    <Content Include="images\独体字\子.jpg" />
+    <Content Include="images\独体字\寸.jpg" />
+    <Content Include="images\独体字\小.jpg" />
+    <Content Include="images\独体字\尤.jpg" />
+    <Content Include="images\独体字\尸.jpg" />
+    <Content Include="images\独体字\尺.jpg" />
+    <Content Include="images\独体字\屯.jpg" />
+    <Content Include="images\独体字\山.jpg" />
+    <Content Include="images\独体字\川.jpg" />
+    <Content Include="images\独体字\州.jpg" />
+    <Content Include="images\独体字\工.jpg" />
+    <Content Include="images\独体字\己.jpg" />
+    <Content Include="images\独体字\巴.jpg" />
+    <Content Include="images\独体字\巾.jpg" />
+    <Content Include="images\独体字\币.jpg" />
+    <Content Include="images\独体字\平.jpg" />
+    <Content Include="images\独体字\年.jpg" />
+    <Content Include="images\独体字\广.jpg" />
+    <Content Include="images\独体字\开.jpg" />
+    <Content Include="images\独体字\弓.jpg" />
+    <Content Include="images\独体字\心.jpg" />
+    <Content Include="images\独体字\必.jpg" />
+    <Content Include="images\独体字\我.jpg" />
+    <Content Include="images\独体字\户.jpg" />
+    <Content Include="images\独体字\手.jpg" />
+    <Content Include="images\独体字\才.jpg" />
+    <Content Include="images\独体字\承.jpg" />
+    <Content Include="images\独体字\文.jpg" />
+    <Content Include="images\独体字\斗.jpg" />
+    <Content Include="images\独体字\斥.jpg" />
+    <Content Include="images\独体字\方.jpg" />
+    <Content Include="images\独体字\无.jpg" />
+    <Content Include="images\独体字\日.jpg" />
+    <Content Include="images\独体字\曲.jpg" />
+    <Content Include="images\独体字\更.jpg" />
+    <Content Include="images\独体字\月.jpg" />
+    <Content Include="images\独体字\木.jpg" />
+    <Content Include="images\独体字\末.jpg" />
+    <Content Include="images\独体字\本.jpg" />
+    <Content Include="images\独体字\术.jpg" />
+    <Content Include="images\独体字\朱.jpg" />
+    <Content Include="images\独体字\来.jpg" />
+    <Content Include="images\独体字\果.jpg" />
+    <Content Include="images\独体字\欠.jpg" />
+    <Content Include="images\独体字\止.jpg" />
+    <Content Include="images\独体字\正.jpg" />
+    <Content Include="images\独体字\母.jpg" />
+    <Content Include="images\独体字\氏.jpg" />
+    <Content Include="images\独体字\民.jpg" />
+    <Content Include="images\独体字\水.jpg" />
+    <Content Include="images\独体字\永.jpg" />
+    <Content Include="images\独体字\求.jpg" />
+    <Content Include="images\独体字\火.jpg" />
+    <Content Include="images\独体字\爪.jpg" />
+    <Content Include="images\独体字\父.jpg" />
+    <Content Include="images\独体字\片.jpg" />
+    <Content Include="images\独体字\牙.jpg" />
+    <Content Include="images\独体字\玉.jpg" />
+    <Content Include="images\独体字\王.jpg" />
+    <Content Include="images\独体字\瓜.jpg" />
+    <Content Include="images\独体字\瓦.jpg" />
+    <Content Include="images\独体字\甘.jpg" />
+    <Content Include="images\独体字\生.jpg" />
+    <Content Include="images\独体字\用.jpg" />
+    <Content Include="images\独体字\甩.jpg" />
+    <Content Include="images\独体字\田.jpg" />
+    <Content Include="images\独体字\由.jpg" />
+    <Content Include="images\独体字\甲.jpg" />
+    <Content Include="images\独体字\申.jpg" />
+    <Content Include="images\独体字\电.jpg" />
+    <Content Include="images\独体字\白.jpg" />
+    <Content Include="images\独体字\百.jpg" />
+    <Content Include="images\独体字\皮.jpg" />
+    <Content Include="images\独体字\目.jpg" />
+    <Content Include="images\独体字\看.jpg" />
+    <Content Include="images\独体字\矛.jpg" />
+    <Content Include="images\独体字\石.jpg" />
+    <Content Include="images\独体字\示.jpg" />
+    <Content Include="images\独体字\禾.jpg" />
+    <Content Include="images\独体字\立.jpg" />
+    <Content Include="images\独体字\米.jpg" />
+    <Content Include="images\独体字\系.jpg" />
+    <Content Include="images\独体字\羊.jpg" />
+    <Content Include="images\独体字\而.jpg" />
+    <Content Include="images\独体字\耳.jpg" />
+    <Content Include="images\独体字\肃.jpg" />
+    <Content Include="images\独体字\肉.jpg" />
+    <Content Include="images\独体字\自.jpg" />
+    <Content Include="images\独体字\舟.jpg" />
+    <Content Include="images\独体字\良.jpg" />
+    <Content Include="images\独体字\虫.jpg" />
+    <Content Include="images\独体字\血.jpg" />
+    <Content Include="images\独体字\西.jpg" />
+    <Content Include="images\独体字\见.jpg" />
+    <Content Include="images\独体字\象.jpg" />
+    <Content Include="images\独体字\身.jpg" />
+    <Content Include="images\独体字\车.jpg" />
+    <Content Include="images\独体字\里.jpg" />
+    <Content Include="images\独体字\重.jpg" />
+    <Content Include="images\独体字\长.jpg" />
+    <Content Include="images\独体字\门.jpg" />
+    <Content Include="images\独体字\雨.jpg" />
+    <Content Include="images\独体字\面.jpg" />
+    <Content Include="images\独体字\页.jpg" />
+    <Content Include="images\独体字\飞.jpg" />
+    <Content Include="images\独体字\食.jpg" />
+    <Content Include="images\独体字\马.jpg" />
+    <Content Include="images\独体字\鬼.jpg" />
+    <Content Include="images\独体字\鸟.jpg" />
+    <Content Include="images\独体字\龙.jpg" />
+    <Content Include="images\独体字背景.jpg" />
+    <None Include="images\基本笔画\横\长斜横七.jpg" />
+    <None Include="images\基本笔画\横\长平横二.jpg" />
+    <None Include="images\基本笔画\横\横折折撇.jpg" />
+    <None Include="images\基本笔画\横\短斜横三.jpg" />
+    <None Include="images\基本笔画\横\短平横士.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.104.0\build\net451\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.104.0\build\net451\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.104.0\build\net451\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.104.0\build\net451\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

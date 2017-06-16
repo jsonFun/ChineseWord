@@ -1,0 +1,1429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Query" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Query.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="皮" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\皮.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包围床" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\包围床.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="长斜撇2文" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\长斜撇2文.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="方" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\方.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="连三撇" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\连三撇.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="相背点六" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\相背点六.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="马" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\马.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="手" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\手.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="登子头登" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\登子头登.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖心旁情" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\竖心旁情.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横斜钩飞" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横斜钩飞.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="山子框凶" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\山子框凶.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="山" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\山.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="手字底拿" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\手字底拿.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="九" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\九.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折提认1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\横折提认.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="示" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\示.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="由" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\由.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="氏" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\氏.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折弯没" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\横折弯没.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="井" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\井.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="春字头春" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\春字头春.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="史" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\史.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折钩6司" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折钩6司.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="户" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\户.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="王" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\王.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖折折钩3弓" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖折折钩3弓.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="雨字头雪1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\雨字头雪.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="反子头反" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\反子头反.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="虫字旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\虫字旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="短斜横三" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\横\短斜横三.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="业" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\业.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="山字头岁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\山字头岁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="尸" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\尸.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="电" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\电.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="屯" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\屯.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="无" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\无.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包围戒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\包围戒.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="日字底智" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\日字底智.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="百" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\百.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="夕" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\夕.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包围魅" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\包围魅.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折折撇1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\横折折撇.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="肃" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\肃.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shuxieshifan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\shuxieshifan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖心底恭" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\竖心底恭.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="币" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\币.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="左点刃" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\左点刃.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="了" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\了.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="偏旁部首" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="尤" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\尤.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="万" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\万.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="乐" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\乐.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包围" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\包围.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="爪" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\爪.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="老子头老" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\老子头老.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="象" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\象.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="平" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\平.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="更" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\更.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="短斜撇生" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\短斜撇生.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="重" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\重.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\水.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="术" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\术.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="止" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\止.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="石" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\石.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="必" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\必.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右耳旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\右耳旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖弯钩2儿" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖弯钩2儿.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="二" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\二.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="州" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\州.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="乌" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\乌.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="正" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\正.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="京字头京" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\京字头京.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="乃" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\乃.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="生" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\生.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xieheng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\xieheng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撇提2云" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\提\撇提2云.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contentYou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\contentYou.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="米" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\米.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="本" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\本.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="末" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\末.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="鬼" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\鬼.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="母" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\母.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="隹字旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\隹字旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="片" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\片.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="丸" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\丸.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="出" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\出.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="瓜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\瓜.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="长斜撇1人" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\长斜撇1人.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="天" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\天.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖弯1四" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖弯1四.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="禾" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\禾.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="平提虫" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\提\平提虫.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ol4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ol4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="舟" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\舟.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="良" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\良.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="带" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\带.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="木" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\木.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="目" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\目.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="金字旁针1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\金字旁针.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折弯撇远" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\横折弯撇远.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水字底泰" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\水字底泰.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="曲" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\曲.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="身" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\身.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="秃宝盖军" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\秃宝盖军.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="卧钩心" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\卧钩心.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="绞丝旁组" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\绞丝旁组.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="系字底紧" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\系字底紧.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="同字框同" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\同字框同.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="虫" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\虫.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="出字头蚩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\出字头蚩.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="平撇千" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\平撇千.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="又" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\又.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右斜竖甘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\竖\右斜竖甘.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="丈" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\丈.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="字头" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\字头.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食字旁饭" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\食字旁饭.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="字头背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\字头背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="甲" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\甲.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="叉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\叉.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contentDutizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\contentDutizi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="习" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\习.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖提1以" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\提\竖提1以.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折钩5习" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折钩5习.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖钩1于" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖钩1于.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="申" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\申.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duanxieheng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\duanxieheng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="日字头星" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\日字头星.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="长" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\长.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="夕字底梦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\夕字底梦.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="看" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\看.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖折2出" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\竖折2出.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撇点1女" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\撇点1女.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="垂露竖川" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\竖\垂露竖川.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="东" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\东.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="田" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\田.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="左耳钩队" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\左耳钩队.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折折折钩2物" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折折折钩2物.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\content.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="倒八头兰" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\倒八头兰.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖提3长" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\提\竖提3长.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折钩4万" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折钩4万.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="两点水冷" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\两点水冷.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="面" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\面.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="玉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\玉.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="金字旁针" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\金字旁针.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="冒字头冒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\冒字头冒.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="予" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\予.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="永" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\永.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="么" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\么.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横撇3又" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\横撇3又.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HengPage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\HengPage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="年" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\年.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="义" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\义.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="亡" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\亡.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="西" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\西.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包字框句" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\包字框句.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="穴宝盖空" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\穴宝盖空.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="禾字头香" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\禾字头香.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="斗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\斗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\Search2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折钩7永" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折钩7永.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖折4区" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\竖折4区.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\中.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="雨" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\雨.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="单耳旁印" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\单耳旁印.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\小.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="主" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\主.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="女字底要" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\女字底要.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="刀" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\刀.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="久" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\久.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撇折1车" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\撇折1车.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="立刀旁刘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\立刀旁刘.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yazi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\yazi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="爪字头采" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\爪字头采.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="字底" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\字底.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="左右点小" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\左右点小.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="里" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\里.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖折折钩2与" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖折折钩2与.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="字底背景图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\字底背景图.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="衣字底装" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\衣字底装.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖弯钩1巴" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖弯钩1巴.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="将字旁将" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\将字旁将.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="而" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\而.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撇折2母" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\撇折2母.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="来" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\来.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖折3亡" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\竖折3亡.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="门" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\门.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="士" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\士.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="互" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\互.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="虎子头虎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\虎子头虎.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="巴" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\巴.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="川" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\川.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="见" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\见.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="四字头罗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\四字头罗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="合三点兴" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\合三点兴.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="开" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\开.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竹字头笑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\竹字头笑.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="宝盖头宝" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\宝盖头宝.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="鸟字旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\鸟字旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖着撇专" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\竖着撇专.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="言字旁认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\言字旁认.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折折撇" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\横\横折折撇.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="按钮背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\按钮背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="甘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\甘.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折3且" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\横折3且.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content-恢复的" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\content-恢复的.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="字头背景1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\字头背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="人字头合" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\人字头合.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="牙" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\牙.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖撇2大" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\竖撇2大.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="衣字旁补" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\衣字旁补.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖折1山" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\竖折1山.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ol2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ol2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撇提1乡" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\提\撇提1乡.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="丘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\丘.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="子字底学" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\子字底学.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="人" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\人.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="病字头病1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\病字头病.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖弯2酒" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖弯2酒.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="日" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\日.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="飞" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\飞.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="常用独体字背景图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\常用独体字背景图.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="风字框风" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\风字框风.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="丰" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\丰.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包围起" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\包围起.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="月字底青" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\月字底青.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="土字底坚" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\土字底坚.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="且" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\且.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="垂" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\垂.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="下" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\下.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="册" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\册.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="用" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\用.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="也" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\也.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="刀字头色" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\刀字头色.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="肉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\肉.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="龙" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\龙.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="食" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\食.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="车子旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\车子旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="甩" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\甩.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖两点冰" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\竖两点冰.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="己" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\己.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="产" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\产.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="平捺之" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\捺\平捺之.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="益" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\益.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="口字底告" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\口字底告.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折钩2书" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折钩2书.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="一" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\一.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="承" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\承.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横钩1欠" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横钩1欠.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="丁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\丁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="大" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\大.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="长斜横七" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\横\长斜横七.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contentDi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\contentDi.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="七" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\七.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contentTou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\contentTou.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖撇1月" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\竖撇1月.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="办" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\办.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="悬针竖中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\竖\悬针竖中.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="广" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\广.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="短直竖尘" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\竖\短直竖尘.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="朱" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\朱.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="短平横士" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\横\短平横士.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折折钩1乃" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折折钩1乃.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="木字底桌" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\木字底桌.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="土" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\土.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="欠" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\欠.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横撇1了" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\横撇1了.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="系" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\系.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="夹" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\夹.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="羊" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\羊.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="车" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\车.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="果" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\果.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖折折鼎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\竖折折鼎.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折2丑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\横折2丑.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="基本笔画背景" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画背景.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="亚" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\亚.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ol5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ol5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="夫" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\夫.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="立" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\立.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="左斜竖共" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\竖\左斜竖共.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="欠字旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\欠字旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="头" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\头.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="区字框区" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\区字框区.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="自" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\自.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="单人旁你" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\单人旁你.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="匆" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\匆.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="左偏旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\左偏旁.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="火" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\火.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="提手旁打" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\提手旁打.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="寸" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\寸.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayMovie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\PlayMovie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横撇2乏" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\撇\横撇2乏.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="升" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\升.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="尺" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\尺.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="入" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\入.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖钩2寸" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖钩2寸.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="书" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\书.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="斜提习" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\提\斜提习.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="几" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\几.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="卷字底卷" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\卷字底卷.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="于" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\于.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="寸字旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\寸字旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖折钩1张" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\竖折钩1张.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TBack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TBack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="矛" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\矛.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="页字旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\页字旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="雨字头雪" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\雨字头雪.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="小子头当" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\小子头当.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包围背景图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\包围背景图.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="千" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\千.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="失" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\失.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="鸟" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\鸟.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="求" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\求.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="丑" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\丑.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包围问" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\包围问.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右偏旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\右偏旁.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="斜捺八" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\捺\斜捺八.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="农" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\农.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="国字框" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\国字框.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="changheng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\changheng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="父" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\父.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="长点不" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\长点不.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="其" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\其.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="巾" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\巾.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="贝字底贺" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\贝字底贺.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="过字底过1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\过字底过.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖三点江" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\竖三点江.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="耳" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\耳.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="反犬旁狗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\反犬旁狗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="长平横二" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\横\长平横二.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="反文头冬" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\反文头冬.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折折凹" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\横折折凹.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="偏旁按钮背景色" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁按钮背景色.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="与" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\与.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="再" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\再.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="过字底过" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\过字底过.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="不" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\不.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="乎" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\乎.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="连四点羔" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\连四点羔.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="斤字旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\斤字旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折弯钩2几" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折弯钩2几.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="八" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\八.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="两对点泰" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\两对点泰.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="包围尿" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\包围尿.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="斥" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\斥.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="左偏旁背景图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\左偏旁背景图.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="建字底建" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\建字底建.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="index" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\index.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="反文旁" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\右偏旁\反文旁.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="卫" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\卫.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="月" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\月.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="心" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\心.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横钩2买" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横钩2买.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="口" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\口.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="弯钩子" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\弯钩子.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右耳钩邓" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\右耳钩邓.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="三点水江" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\三点水江.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右点斗" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\右点斗.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="白" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\白.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="瓦" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\瓦.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="页" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\页.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="石字底碧" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\石字底碧.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="事" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\事.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="工" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\工.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="示字底杂" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\示字底杂.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="四点底杰" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\四点底杰.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="文" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\文.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撇点3要" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\撇点3要.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="短斜竖" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\竖\短斜竖.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="我" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\我.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ol1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\ol1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折折折钩3凸" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折折折钩3凸.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="血" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\血.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="半" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\半.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="上" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\上.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="右偏旁背景图" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\右偏旁背景图.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="十" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\十.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="之" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\之.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="撇点2好" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\撇点2好.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="央" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\央.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折1口" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\折\横折1口.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="竖提2瓜" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\提\竖提2瓜.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="弓" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\弓.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="儿" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\儿.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折钩3力" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折钩3力.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="相向点丫" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\相向点丫.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="病字头病" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\包围\病字头病.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折弯钩1九" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折弯钩1九.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="斜钩戈" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\斜钩戈.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="个" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\个.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="才" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\才.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="祭字头祭" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\祭字头祭.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折钩1也" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\钩\横折钩1也.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="及" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\及.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="T8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\T8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="上下点尽" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\点\上下点尽.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="双人旁行" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\双人旁行.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="示字旁社" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\示字旁社.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="朝字旁朝" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\左偏旁\朝字旁朝.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="丹" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\丹.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="子" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\子.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="横折提认" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\基本笔画\提\横折提认.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="草字头花" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字头\草字头花.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="儿字底先" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\偏旁部首\字底\儿字底先.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="串" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\串.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="乡" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\乡.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="民" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\民.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contentBushou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\contentBushou.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contentZou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\contentZou.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fangda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\fangda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="全屏" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\全屏.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="太" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\独体字\太.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
